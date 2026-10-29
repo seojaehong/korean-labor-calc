@@ -1,0 +1,17 @@
+{
+  "name": "korean-labor-calc",
+  "version": "0.1.0",
+  "description": "한국 노동법·급여 계산 엔진 — 퇴직금, 퇴직소득세, 실수령액, 최저임금, 주휴수당, 해고예고수당, 연차수당, 통상임금, 임금 지연이자, 중도퇴사 연말정산, 상시 근로자 수",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5",
+    "vitest": "^4.1.10"
+  }
+}
